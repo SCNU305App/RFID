@@ -3,11 +3,10 @@ package com.example.reborn.login;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Function extends AppCompatActivity {
-
+public class AddActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_function_main);
+        setContentView(R.layout.add);
     }
 }

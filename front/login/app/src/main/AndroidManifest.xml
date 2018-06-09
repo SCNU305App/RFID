@@ -5,14 +5,13 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!--注册活动-->
        <activity
         android:name=".LoginMainActivity"
-        android:label="Login">
+           android:label="Login">
            <!--显性intent-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Function"></activity>
+        <activity android:name=".MenuActivity"> </activity>
+        <activity android:name=".AddActivity"> </activity>
+        <activity android:name=".SearchMain"> </activity>
     </application>
 
 </manifest>
