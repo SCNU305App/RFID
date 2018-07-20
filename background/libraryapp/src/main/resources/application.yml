@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/library
+    username: root
+    password: 13922702447a
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+
+slidepicture:
+  url1: https://www.cargelzhong.cn/uploadFiles/swiper/swiper_1.jpg
+  url2: https://www.cargelzhong.cn/uploadFiles/swiper/swiper_2.jpg
+  url3: https://www.cargelzhong.cn/uploadFiles/swiper/swiper_3.jpg
+  url4: https://www.cargelzhong.cn/uploadFiles/swiper/swiper_4.jpg
+  url5: https://www.cargelzhong.cn/uploadFiles/swiper/swiper_5.jpg
+
+qrcode:
+  appid: wx2358e2daeb91708e
+  appsecret: 9a9744826f9c8e54d6c673cdba735d7d
+  getaccesstokenurl: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx2358e2daeb91708e&secret=9a9744826f9c8e54d6c673cdba735d7d
+  getqrcodeurl: https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode?access_token=
+  getwxacodeurl: https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=
+
+allpath:
+  servername: http://39.105.105.105
+  imguploadurl: c:/uploadFiles/demo/
+  imgdownloadurl: 39.105.105.105/var/www/html/
+  exceltempurl: c:/uploadFiles/huiqian/exceltemp/
